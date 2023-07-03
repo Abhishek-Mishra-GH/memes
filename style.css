@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: wheat;
+}
+
+.brdr {
+    border: 1px solid wheat;
+}
+
+.fc {
+    display: flex;
+    justify-content: right;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.fc-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+}
+
+#subreddit {
+    width: 30%;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#update {
+    margin: 0 15px;
+    padding: 10px;
+    background-color: darkolivegreen;
+}
+
+
+
+#main {
+    margin-top: 7vh;
+}
+
+.meme {
+    border: 2px solid wheat;
+    max-width: 100%;
+    max-height: 90vh;
+    padding: 2.5%;
+    margin-top: 5%;
+}
